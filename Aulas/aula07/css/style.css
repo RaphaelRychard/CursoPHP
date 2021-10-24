@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+   
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1em;
+
+    background: royalblue url("../img/—Pngtree—dark\ vector\ abstract\ background_1159556.png") no-repeat center center;
+    height: 100vh;
+    background-size: cover ;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    margin-bottom: 30px;
+    text-align: center;
+
+    font-size: 1.5em;
+    color: white;
+}
+
+h2 {}
+
+p {}
+
+input {
+    border: none;
+    outline: none;
+}
+
+section {
+    width: 600px;
+    height: 300px;
+    padding: 10px;
+
+    background-color: rgba(75, 75, 75, 0.801);
+    box-sizing: border-box;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+section form {
+    padding: 30px;
+}
+section form  fieldset {
+    border: none;
+}
+section form  fieldset label {
+    display: block;
+    margin-top: 5px;
+
+    color: white;
+    margin-bottom: 5px;
+}
+
+section form  fieldset input.login,
+section form  fieldset input.senha  {
+    height: 20px;
+    width: 180px;
+
+    border: 1px solid rgba(0, 0, 0, 0);
+
+}
+
+section form  fieldset input.submit {    
+    display: flex;
+    box-sizing: content-box;
+
+    margin-top: 10px;
+    padding: 10px 10px;
+
+    background-color: royalblue;
+    border: 1px solid royalblue;
+
+    border-radius: 5px;
+    color: white;
+}
+
+section form  fieldset input.submit {
+    display: flex;
+    align-items: center;
+    justify-content: submit;
+}
+
+section form  fieldset input.login:hover,
+section form  fieldset input.senha:hover{
+    border: 1px solid royalblue;
+}
+

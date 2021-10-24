@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="../css/style.css">
+
+     
+    </head>
+
+    <body>
+        <section id="bg">
+            <h1>Seja Bem Vindo</h1>
+            
+            <form action="formatacao.php" method="get">
+
+                <label for="Itext">Texto: </label>
+                <input type="text" name="t" id="Itext">
+
+                <label for="Itam">Tamnho</label>
+                <select name="tem" id="Itam">
+                    <option value="8pt">8</option>
+                    <option value="10pt">10pt</option>
+                    <option value="14pt" selected >14pt</option>
+                    <option value="20pt">20pt</option>
+                    <option value="40pt">40pt</option>
+                </select>
+
+                <label for="icor">Cor: </label>
+                <input type="color" name="cor" id="icor">
+
+                <input type="submit" value="Gerar">
+
+            </form>
+        </section>
+
+    </body>
+
+</html>

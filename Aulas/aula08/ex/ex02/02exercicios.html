@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PHP</title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+
+    <body>
+        <section id="bg">
+            
+            <h1>Inserindo dados pessoais!</h1>
+
+            <form method="get" action="02-dados.php">
+
+                <!-- Nome -->
+                <section>
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome">
+                </section>
+
+                <!-- Ano de nacimento -->
+                <section>
+                    <label for="nasc">Ano de Nacimento:</label>
+                    <input type="number" name="ano" id="nasc">
+                </section>
+
+                <!-- Sexo -->
+                <section>
+                    <fieldset>
+                        <legend>Sexo:</legend>
+                        
+                        <input type="radio" name="sexo" id="Mas" value="Homem" checked>
+                        <label for="Mas">Msculino</label>
+                        <br>
+                        <input type="radio" name="sexo" id="Fem" value="Mulher">
+                        <label for="Fem">Femino</label>
+                        
+                    </fieldset>
+                </section>
+
+                <input type="submit" value="Enviar">
+
+            </form>
+
+        </section>
+    </body>
+
+</html>
