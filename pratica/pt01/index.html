@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHP teste de formularios simplex</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <main>
+        <section class="item">
+            <h1>PHP - Pratica</h1>
+            <article>
+
+                <form action="ajuste.php" method="get">
+
+                    <!-- nome -->
+                    <section>
+                        <label for="nome">Nome: </label>
+                        <input type="text" name="text-nome" id="nome">
+                    </section>
+
+                    <section>
+                        <label for="ano">Anos: </label>
+                        <input type="text" name="text-ano" id="nome">
+                    </section>
+
+                    <!-- Font -->
+                    <section>
+
+                        <label for="font">Tamanho</label>
+                        <select name="camptext" id="font">
+                            <option value="10pt">10pt</option>
+                            <option value="12pt">11pt</option>
+                            <option value="14pt">12pt</option>
+                            <option value="16pt">13pt</option>
+                            <option value="18pt">18pt</option>
+                            <option value="20pt">20pt</option>
+                            <option value="22pt">22pt</option>
+                            <option value="30pt">30pt</option>
+                            <option value="40pt">40pt</option>
+                        </select>
+
+                    </section>
+
+                    <!-- Cidade -->
+                    <section>
+                        <fieldset>
+                            <legend>Cidade: </legend>
+                            <select name="city" id="city">
+                                <option value="Cuiabá-MT">MT</option>
+                                <option value="São Paulo - SP">SP</option>
+                                <option value="Rio de Janeiro - RJ">RJ</option>
+                                <option value="Parana - PA">PA</option>
+                                <option value="Mato Grosso do Sul - MS">MS</option>
+                            </select>
+                        </fieldset>
+                    </section>
+
+                    <!-- Cor -->
+                    <section>
+                        <label for="capm-cor">Cor: </label>
+                        <input type="color" name="capm-cor" id="capm-cor">
+                    </section>
+
+
+                    <input type="submit" id="enviar" value="Enviar">
+
+                    
+
+                </form>
+
+            </article>
+        </section>
+    </main>
+</body>
+
+</html>
