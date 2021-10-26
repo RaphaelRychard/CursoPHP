@@ -155,11 +155,13 @@ a#voltar {
     cursor: pointer;
 
     margin: 20px 0; 
+    text-decoration: none;
 }
 
 a#voltar:hover, a#voltar:active {
     background: white;
     color: var(--cor0);
+    
 }
 
 

@@ -9,12 +9,10 @@
 
         <!-- PHP -->
         <?php
-            $nome = isset ($_GET ["text-nome"]) ? $_GET ["text-nome"] : "[ <strong>Sem dados</strong> ]";
-            $tamanho = isset ($_GET ["camptext"]) ? $_GET ["camptext"] : "12pt";
+            $nome = isset ($_GET ["text-nome"]) ? $_GET ["text-nome"] : "[<strong>Sem dados</strong> ]";
+            $tamanho = isset ($_GET ["camptext"]) ? $_GET ["camptext"] : "1em";
             $city = $_GET ["city"] ;
             $cor = isset ($_GET ["capm-cor"]) ? $_GET ["capm-cor"] : "#000";
-            $anos = isset ($_GET ["text-ano"]) ? $_GET ["text-ano"] : "Idade não Digitada";
-            $idade = date("Y") - $anos
         ?>
 
         <style>
@@ -33,7 +31,7 @@
             <section class="item">
                 <h1>PHP - Pratica</h1>
                 <article>
-            
+
                     <?php
                         echo "<span class='user'>$nome de $idade anos, mora em $city</span>";
                     ?>
